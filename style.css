@@ -7,3 +7,21 @@
 main {
   display: flex;
 }
+
+#nome-sobrenome {
+  display: flex;
+}
+
+#email-casa {
+  display: flex;
+}
+
+#radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-colum {
+  display: flex;
+
+}
