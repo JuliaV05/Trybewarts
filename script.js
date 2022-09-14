@@ -1,6 +1,4 @@
-let button = document.querySelector("btn");
+// let button = document.querySelector("btn");
 
-function buttonAlert () {
-  
-  
-}
+// function buttonAlert () {
+// }
