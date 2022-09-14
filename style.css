@@ -3,6 +3,23 @@
   background-color: rgb(50, 167, 145);
 }
 
+.trybewarts-login {
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  margin-left: auto;
+  margin-top: 0;
+  float: right;
+}
+
+div {
+  display: flex;
+  text-align: right;
+  margin-left: auto;
+}
+
 #evaluation-form {
   display: flex;
   width: 675px;
