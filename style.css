@@ -29,3 +29,36 @@ div {
 main {
   display: flex;
 }
+
+#nome-sobrenome {
+  display: flex;
+}
+
+#email-casa {
+  display: flex;
+}
+
+#radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-colum {
+  display: flex;
+
+}
+
+#checkbox-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#radio-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#textarea-container {
+  display: flex;
+  flex-direction: column;
+}
