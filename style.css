@@ -3,6 +3,10 @@
   background-color: rgb(50, 167, 145);
 }
 
+body {
+  background-color: rgb(240, 240, 240);
+}
+
 .trybewarts-login {
   display: flex;
 }
@@ -22,8 +26,16 @@ div {
 
 #evaluation-form {
   display: flex;
-  width: 675px;
   flex-direction: column;
+  margin: 30px;
+  width: 675px;
+}
+
+p {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 main {
@@ -32,30 +44,58 @@ main {
 
 #nome-sobrenome {
   display: flex;
+  height: 50px;
+  margin-bottom: 10px;
+  gap: 3px;
 }
 
 #email-casa {
   display: flex;
 }
 
+#email {
+  width: 595px;
+}
+
+#house {
+  width: 450px;
+}
+
 #radio {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 85.5px;
 }
 
 .radio-colum {
   display: flex;
+  width: 95px;
+  gap: 5px;
 
 }
 
 #checkbox-container {
   display: flex;
   flex-direction: column;
+  width: 300px;
+  flex: wrap;
+  justify-content: flex-start;
 }
 
 #radio-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+#radio-container2 {
+  display: flex;
+  width: 670px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
 
 #textarea-container {
@@ -63,3 +103,38 @@ main {
   flex-direction: column;
 }
 
+#family-2 {
+  margin-left: 0;
+}
+
+#checkbox-only {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.checkbox-div {
+  margin-left: 10px;
+  display: flex;
+  gap: 4px;
+}
+
+.familia-conteudo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#radio-number {
+  gap: 17px;
+}
+
+.radi {
+  margin-left: 0;
+}
+
+.h3-form {
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 30px;
+}

@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-<<<<<<< HEAD
     <link rel="shortcut icon" href="./favicon/favicon-trybewarts.png">
     <!-- CSS only -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css" />
     <title>Trybewarts</title>
 </head>
 <body>
@@ -26,7 +25,7 @@
  </header>
     <main>
       <form action="" id="evaluation-form">
-        <h3>Formulário de Avaliação</h3>
+        <h3 class="h3-form">Formulário de Avaliação</h3>
         <section id="nome-sobrenome">
           <input type="text" name="nome" id="input-name" placeholder="Nome" class="form-control" />
           <input
@@ -38,6 +37,7 @@
           />
         </section>
         <section id="email-casa">
+          <div id="email">
           <input
             type="email"
             name="e-mail"
@@ -45,7 +45,8 @@
             placeholder="Email"
             class="form-control"
           />
-          <label for="" class="form-label">Casa:</label>
+        </div>
+          <p>Casa:</p> 
 
           <select name="" id="house" class="form-select">
             <option value="Gitnória" id="gitnoria-house">Gitnória</option>
@@ -53,8 +54,9 @@
             <option value="Corvinode" id="corvinode-house">Corvinode</option>
             <option value="Pytherina" id="pytherina-house">Pytherina</option>
           </select>
-          <hr>
         </section>
+        <hr>
+        <div class="familia-conteudo">
         <section id="radio-container">
           <label for="" id="label-family" class="form-label">Qual sua família?</label>
           <section id="radio">
@@ -69,7 +71,13 @@
               <label for="family-1" class="form-check-label">Frontend</label>
             </div>
             <div class="radio-colum">
-              <input type="radio" name="family" value="Backend" id="family-2" class="form-check-input" />
+              <input 
+              type="radio" 
+              name="family" 
+              value="Backend" 
+              id="family-2" 
+              class="form-check-input" 
+              />
               <label for="family-2" class="form-check-label">Backend</label>
             </div>
             <div class="radio-colum">
@@ -86,19 +94,22 @@
         </section>
 
         <section id="checkbox-container">
-          <label for="" id="label-content" class="form-label"
+          <label for="" id="label-content"
             >Qual conteúdo você está com mais vontade de aprender?</label
           >
-          <div>
+          <div id="checkbox-only">
+            <div class="checkbox-div">
             <input
               type="checkbox"
-              name=""
+              name="HoFs"
               class="subject"
               value="HoFs"
               id="conteudo-1"
               class="form-check-input"
             />
             <label for="conteudo-1" class="form-check-label">HoFs</label>
+        </div>
+        <div class="checkbox-div">
             <input
               type="checkbox"
               name=""
@@ -108,6 +119,8 @@
               class="form-check-input"
             />
             <label for="conteudo-2" class="form-check-label">Jest</label>
+        </div>
+        <div class="checkbox-div">
             <input
               type="checkbox"
               class="subject"
@@ -116,6 +129,8 @@
               class="form-check-input"
             />
             <label for="conteudo-3" class="form-check-label">Promises</label>
+        </div>
+        <div class="checkbox-div">
             <input
               type="checkbox"
               class="subject"
@@ -124,6 +139,8 @@
               class="form-check-input"
             />
             <label for="conteudo-4" class="form-check-label">React</label>
+        </div>
+        <div class="checkbox-div">
             <input
               type="checkbox"
               class="subject"
@@ -132,6 +149,8 @@
               
             />
             <label for="conteudo-5" class="form-check-label">SQL</label>
+        </div>
+        <div class="checkbox-div">
             <input
               type="checkbox"
               name=""
@@ -141,32 +160,55 @@
               class="form-check-input"
             />
             <label for="conteudo-6" class="form-check-label">Python</label>
+        </div>
           </div>
         </section>
+      </div>
+        <hr>
 
-        <section id="radio-container">
+        <section id="radio-container2">
           <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
-          <div>
+          <div id="radio-number">
+            <div class="radi">
             <input type="radio" name="rate" id="rate-1" class="form-check-input" />
             <label for="rate-1" class="form-check-label">1</label>
+          </div>
+          <div class="radi">
             <input type="radio" name="rate" id="rate-2" class="form-check-input"/>
             <label for="rate-2" class="form-check-label">2</label>
+          </div>
+          <div class="radi">
             <input type="radio" name="rate" id="rate-3" class="form-check-input"/>
             <label for="rate-3" class="form-check-label">3</label>
+          </div>
+          <div class="radi">
             <input type="radio" name="rate" id="rate-4" class="form-check-input"/>
             <label for="rate-4" class="form-check-label">4</label>
+          </div>
+          <div class="radi">
             <input type="radio" name="rate" id="rate-5" class="form-check-input"/>
             <label for="rate-5" class="form-check-label">5</label>
+          </div>
+          <div class="radi">
             <input type="radio" name="rate" id="rate-6" class="form-check-input"/>
             <label for="rate-6" class="form-check-label">6</label>
+          </div>
+          <div class="radi">
             <input type="radio" name="rate" id="rate-7" class="form-check-input"/>
             <label for="rate-7" class="form-check-label">7</label>
+          </div>
+          <div class="radi">
             <input type="radio" name="rate" id="rate-8" class="form-check-input"/>
             <label for="rate-8" class="form-check-label">8</label>
+          </div>
+          <div class="radi">
             <input type="radio" name="rate" id="rate-9" class="form-check-input"/>
             <label for="rate-9" class="form-check-label">9</label>
+          </div>
+          <div class="radi">
             <input type="radio" name="rate" id="rate-10" class="form-check-input"/>
             <label for="rate-10" class="form-check-label">10</label>
+          </div>
           </div>
         </section>
 
@@ -175,7 +217,7 @@
           <textarea name="" id="" maxlength="500" class="form-control"></textarea>
         </section>
 
-        <section id="agreement">
+        <section>
           <input type="checkbox" name="" id="agreement" class="form-check-input"/>
           <label for="agreement" id="label-infos" class="form-check-label">Você concorda com o uso das informações acima?</label>
         </section>
@@ -183,6 +225,6 @@
     </main>
     <script src="script.js"></script>
   </body>
-=======
->>>>>>> 506f678b7b61126d2b1967597ea1bff968f3550b
+
+
 </html>
