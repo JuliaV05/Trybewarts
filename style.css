@@ -27,8 +27,15 @@ div {
 #evaluation-form {
   display: flex;
   flex-direction: column;
-  margin: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 40px;
   width: 675px;
+  height: 600px;
+  background-color: rgba(220, 220, 220, 0.738);
+  padding: 15px;
+  border-radius: 50px;
+  box-shadow: -6px 8px 0 rgb(162, 162, 162);
 }
 
 p {
@@ -36,10 +43,13 @@ p {
   margin-left: 5px;
   margin-top: 10px;
   font-size: 20px;
+  left: 10px;
+  top: 20px;
 }
 
 main {
   display: flex;
+  flex-direction: column;
 }
 
 #nome-sobrenome {
@@ -138,3 +148,75 @@ main {
   font-size: 30px;
   margin: 30px;
 }
+
+.button-houses {
+  display: flex;
+  height: 50px;
+  /* border: 1px solid red; */
+  width: 400px;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+/* .button-form {
+  display: flex;
+  flex-direction: column;
+
+} */
+/* #textarea-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  height: 150px;
+} */
+
+#button-h1 {
+  border-radius: 50px;
+  background-color: red;
+  box-shadow: -3px 4px 0 rgb(45, 45, 45);
+}
+#button-h1:active {
+  box-shadow: inset -3px 4px 0 rgb(45, 45, 45);
+  font-size: 14px;
+}
+
+#button-h2 {
+  border-radius: 50px;
+  background-color: yellow;
+  box-shadow: -3px 4px 0 rgb(45, 45, 45);
+}
+
+#button-h2:active {
+  box-shadow: inset -3px 4px 0 rgb(45, 45, 45);
+  font-size: 14px;
+}
+
+#button-h3 {
+  border-radius: 50px;
+  background-color: blue;
+  box-shadow: -3px 4px 0 rgb(45, 45, 45);
+}
+
+#button-h3:active {
+  box-shadow: inset -3px 4px 0 rgb(45, 45, 45);
+  font-size: 14px;
+}
+
+#button-h4 {
+  border-radius: 50px;
+  background-color: green;
+  box-shadow: -3px 4px 0 rgb(45, 45, 45);
+}
+
+#button-h4:active {
+  box-shadow: inset -3px 4px 0 rgb(45, 45, 45);
+  font-size: 14px;
+}
+
+#textarea-container {
+  height: 100px;
+}
+
