@@ -1,4 +1,3 @@
-
 const gitnoria = document.getElementById('button-h1');
 const reactpuff = document.getElementById('button-h2');
 const corvinode = document.getElementById('button-h3');
@@ -37,4 +36,3 @@ function buttonAlert() {
   }
 }
 getButton.addEventListener('click', buttonAlert);
-
