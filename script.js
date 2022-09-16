@@ -36,3 +36,14 @@ function buttonAlert() {
   }
 }
 getButton.addEventListener('click', buttonAlert);
+
+const buttonForm = document.getElementById('submit-btn');
+const check = document.getElementById('agreement');
+
+check.addEventListener('change', () => {
+  if (check.checked) {
+    buttonForm.disabled = false;
+  } else {
+    buttonForm.disabled = true;
+  }
+});
