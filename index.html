@@ -14,11 +14,19 @@
 <body>
   <header class="header">
     <img class="trybewarts-header-logo" src="/images/trybewarts-header-logo.svg">
-  <div>
-    <form class="trybewarts-login">
-      <input type="email" name="email" placeholder="Email">
-      <input type="password" name="password" placeholder="Senha">
-      <button class="btn">Entrar</button>
+<h1 id="trybewarts-header-title">Trybewarts</h1>
+<div>
+  <form class="trybewarts-login">
+    <input type="email" name="email" class="email" placeholder="Email">
+    <input type="password" name="password" class="pass" placeholder="Senha">
+    <button class="btn">Entrar</button>
+  </form>
+</div>
+</header>
+<aside>
+<img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg">
+</aside>
+<main>
 
     </form>
   </div>
@@ -228,6 +236,7 @@
         <input type="checkbox" name="" id="agreement" class="form-check-input"/>
         <label for="agreement" id="label-infos" class="form-check-label">Você concorda com o uso das informações acima?</label>
       </section>
+      <button type="submit" id="submit-btn" disabled>Enviar</button>
     </form>
   </main>
   <script src="script.js"></script>

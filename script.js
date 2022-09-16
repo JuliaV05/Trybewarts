@@ -1,3 +1,4 @@
+
 const gitnoria = document.getElementById('button-h1');
 const reactpuff = document.getElementById('button-h2');
 const corvinode = document.getElementById('button-h3');
@@ -23,3 +24,17 @@ pytherina.addEventListener('click', () => {
   document.body.style.backgroundColor = 'rgba(0, 128, 0, 0.212)';
   header[0].style.backgroundColor = 'green';
 });
+const getButton = document.querySelector('.btn');
+const getEmail = document.querySelector('.email');
+const getPassword = document.querySelector('.pass');
+function buttonAlert() {
+  const verifyPass = getPassword.value;
+  const verifyMail = getEmail.value;
+  if (verifyMail === 'tryber@teste.com' && verifyPass === '123456') {
+    window.alert('Olá, Tryber!');
+  } else {
+    window.alert('Email ou senha inválidos.');
+  }
+}
+getButton.addEventListener('click', buttonAlert);
+
