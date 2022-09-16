@@ -14,6 +14,11 @@
   float: right;
 }
 
+#trybewarts-forms-logo {
+  height: 500px;
+  float: right;
+}
+
 div {
   display: flex;
   text-align: right;
