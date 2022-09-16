@@ -1,6 +1,6 @@
-const getButton = document.getElementsByClassName('btn');
-const getEmail = document.getElementsByClassName('email');
-const getPassword = document.getElementsByClassName('pass');
+const getButton = document.querySelector('.btn');
+const getEmail = document.querySelector('.email');
+const getPassword = document.querySelector('.pass');
 function buttonAlert() {
   const verifyPass = getPassword.value;
   const verifyMail = getEmail.value;
