@@ -108,7 +108,7 @@
         </section>
 
         <section id="checkbox-container">
-          <label for="" id="label-content"
+          <label for="" id="label-content" class="form-label"
             >Qual conteúdo você está com mais vontade de aprender?</label
           >
           <div id="checkbox-only">
@@ -116,10 +116,9 @@
             <input
               type="checkbox"
               name="HoFs"
-              class="subject"
+              class="subject form-check-input"
               value="HoFs"
               id="conteudo-1"
-              class="form-check-input"
             />
             <label for="conteudo-1" class="form-check-label">HoFs</label>
         </div>
@@ -127,40 +126,36 @@
             <input
               type="checkbox"
               name=""
-              class="subject"
+              class="subject form-check-input"
               value="Jest"
               id="conteudo-2"
-              class="form-check-input"
             />
             <label for="conteudo-2" class="form-check-label">Jest</label>
         </div>
         <div class="checkbox-div">
             <input
               type="checkbox"
-              class="subject"
+              class="subject form-check-input"
               value="Promises"
               id="conteudo-3"
-              class="form-check-input"
             />
             <label for="conteudo-3" class="form-check-label">Promises</label>
         </div>
         <div class="checkbox-div">
             <input
               type="checkbox"
-              class="subject"
+              class="subject form-check-input"
               value="React"
               id="conteudo-4"
-              class="form-check-input"
             />
             <label for="conteudo-4" class="form-check-label">React</label>
         </div>
         <div class="checkbox-div">
             <input
               type="checkbox"
-              class="subject"
+              class="subject form-check-input"
               value="SQL"
               id="conteudo-5"
-              
             />
             <label for="conteudo-5" class="form-check-label">SQL</label>
         </div>
@@ -168,10 +163,9 @@
             <input
               type="checkbox"
               name=""
-              class="subject"
+              class="subject form-check-input"
               value="Python"
               id="conteudo-6"
-              class="form-check-input"
             />
             <label for="conteudo-6" class="form-check-label">Python</label>
         </div>
@@ -229,16 +223,19 @@
 
       <section id="textarea-container">
         <label for="" class="textarea" class="form-label">Deixe seu comentário:</label>
-        <textarea name="" id="" maxlength="500" class="form-control"></textarea>
+        <textarea name="" id="textarea" maxlength="500" class="form-control">
+        </textarea>
+        <p id="counter">500</p>
       </section>
-
       <section>
         <input type="checkbox" name="" id="agreement" class="form-check-input"/>
         <label for="agreement" id="label-infos" class="form-check-label">Você concorda com o uso das informações acima?</label>
       </section>
       <button type="submit" id="submit-btn" disabled>Enviar</button>
     </form>
-    <footer>Direitos reservados à Trybewarts©</footer>
+    <footer id="footer">
+      Direitos reservados à Trybewarts©
+    </footer>
   </main>
   <script src="script.js"></script>
 </body>
